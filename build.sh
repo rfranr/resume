@@ -1,16 +1,14 @@
 #!/bin/bash
-mkdir static
+rm -rf ./static 
+mkdir ./static
+touch ./static/.gitignore
+echo * > ./static/.gitignore
 
-git add resume.md
-git commit -m "deploy"
 pandoc '.\resume.md' -f markdown -t html -s -o static/resume.html
 
-git add static/resume.html
+git add -A
 git commit -m "deploy"
 
-git checkout docs
-git checkout main build.sh
-git checkout main static/resume.html
 
 git add -A
 
