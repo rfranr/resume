@@ -10,41 +10,53 @@
 
 ### <u>2007 - Actualmente</u> **Analista Programador** en *Axpe Consulting*.
 
-Desarrollo de una herramienta ETL de informes en Crystal Reports.
+Desarrollo de apliación de intranet de gestión disciplinaria ( Agosto 2021 - Diciembre 2021)
 
-* .Net 4.8, Crystal Reports
+- .MVC5, C#, Api Rest, Vanilla Javascript, Jquery, Oracle DB, GIT
 
-Arquitectura y desarrollo de un CRM/ERP de gestión en entorno Web.
+Desarrollo de herramienta de integración con SII - Suministro Inmediato de Información Agencia Tributaria ( 2021 )
 
-* .Net Core, Angular2
+* .Net Core, API Rest, Api Soap, GIT
 
-Arquitectura de la aplicación de soporte Monitorización de Stocks para Massimo Dutti.
+Desarrollo de herramienta de integración con GeFact - Factura Electrònica. (2021)
+
+* .Net Core, API Rest, Api Soap, FacturaE
+
+Desarrollo de una herramienta ETL de generación de informes PDF con Crystal Reports. (2021)
+
+* .Net 4.8, Crystal Reports, Sql Server
+
+Arquitectura y desarrollo de un CRM/ERP de gestión en entorno Web. (2020-2021)
+
+* .Net Core, Angular2+, SqlServer
+
+Arquitectura de la aplicación de soporte Monitorización de Stocks para Massimo Dutti. (2020)
 
 * Angular2, Node ( como backend y spider para el consumo de la Api pública ), Docker, Mysql
 
 Arquitectura y desarrollo de un aplicación dashboard en entorno Web para el CatSalut.
 
-* Java 1.8, Mithril ( Microframework Javascript para aplicaciones SPA ), OpenLayers y Charts.js, Soap Webservices
+* Java 1.8, Mithril ( Microframework Javascript para aplicaciones SPA ), OpenLayers y Charts.js, API Soap 
 
 Mantenimiento, consultoría y migraciones de datos de la aplicación “Registres Sanitaris Agregats” del CatSalut.
 
 * Groovy, Bash, PL/SQL, Java
 
-Arquitectura y desarrollo de la aplicación de gestión en entorno Web: “Plataforma Disponibilat de Productes” para la empresa BSM .
+Arquitectura y desarrollo de la aplicación de gestión en entorno Web: “Plataforma Disponibilat de Productes” para la empresa BSM. (Abril 2018 - Noviembre 2018)
 
-* .Net ( Api Rest usando librería microframework NancyFx ), Angular2 
+* .Net ( Api Rest usando librería microframework NancyFx ), Angular2+ 
 
-Arquitectura y desarrollo de la aplicación de gestión en entorno Web: “Vehicles Movilitat Personal” para la empresa BSM.
+Arquitectura y desarrollo de la aplicación de gestión en entorno Web: “Vehicles Movilitat Personal” para la empresa BSM. ( Noviembre 2017 - Julio 2018 )
 
-* .Net WebApi, EntitityFramework, Angular2
+* .Net WebApi, EntitityFramework, Angular2+
 
-Desarrollo de la aplicación, Web y Batch: “MTO (Monitor de cargas)” para la empresa IMI ( Institut Municipal d’Informàtica ).
+Desarrollo de la aplicación, Web y Batch: “MTO (Monitor de cargas)” para la empresa IMI ( Institut Municipal d’Informàtica ). (Diciembre 2017 - Diciembre 2018) 
 
 * Java (Framework OpenTrends de IMI), Bash, UC4 ( Job scheduling )
 
 Desarrollo de la aplicación: “AGP Gestión de Proyectos” para las empresas VidaCaixa y SegurCaixa.
 
-* Java, .Net ( MVC.NET ), PL/SQL
+* Java, .Net 4.8, C#,  MVC.NET, PL/SQL
 
 Desarrollo, implantacion y arquitectura de la aplicación “RSA ( Registres Sanitaris Agregats)” para el departamento del CatSalut.
 
@@ -103,10 +115,8 @@ Arquitectura y desarrollo de máquinas de videojuegos recreativos y de azar.
 - #### <span>ESCUELA DE INFORMÁTICA B.I.T</span> *2001*
   
   ANALISTA PROGRAMADOR DE APLICACIONES INFORMÁTICAS EN INTERNET(JAVA)
-  
-  
-  
-  ## Certificados
+
+## Certificados
 
 - #### <span>ITILF ITIL® Foundation Certificate in IT Service Management</span> *2010*
 - #### <span>DevOps Fundamentals – DASA (DevOps Agile Skills Association)</span> *2019*
