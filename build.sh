@@ -1,4 +1,7 @@
 #!/bin/bash
+git add -A 
+git commit -m "deploy"
+
 rm -rf ./static 
 mkdir ./static
 touch ./static/.gitignore
