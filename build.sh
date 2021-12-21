@@ -9,7 +9,7 @@ git add static/resume.html
 git commit -m "deploy"
 
 git checkout docs
-
+git checkout main build.sh
 git checkout main static/resume.html
 
 git add -A
