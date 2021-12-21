@@ -10,7 +10,7 @@
 
 ### <u>2007 - Actualmente</u> **Analista Programador** en *Axpe Consulting*.
 
-Desarrollo de apliación de intranet de gestión disciplinaria ( Agosto 2021 - Diciembre 2021)
+DDesarrollo de apliación de intranet de gestión disciplinaria ( Agosto 2021 - Diciembre 2021)
 
 - .MVC5, C#, Api Rest, Vanilla Javascript, Jquery, Oracle DB, GIT
 
