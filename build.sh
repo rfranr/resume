@@ -2,28 +2,26 @@
 rm -rf ./static 
 mkdir ./static
 touch ./static/.gitignore
-echo * > ./static/.gitignore
+echo "*" > ./static/.gitignore
 
 pandoc '.\resume.md' -f markdown -t html -s -o static/resume.html
 
-git add -A
-git commit -m "deploy"
 
+cd ./static
 
-git add -A
+git clone -b docs --single-branch https://github.com/rfranr/resume.git
 
-git status
+cp resume.html ./resume/resume.html
 
-git commit -m "deploy"
-git checkout main
-
-git rm -rf static/
-
-git add -A
+cd resume
 
 git status
 
+git add -A
 git commit -m "deploy"
 
-git push 
+git push
 
+cd ../..
+
+rm -rf ./static
