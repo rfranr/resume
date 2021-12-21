@@ -1,6 +1,6 @@
 <!-- The (first) h1 will be used as the <title> of the HTML page -->
 
-# Francesc López Marió__
+# Francesc López Marió___
 
 | Email            | Teléfono     | Ubicación | Github                    |
 |:---------------- | ------------ | --------- | ------------------------- |
