@@ -1,4 +1,5 @@
 #!/bin/bash
+git rm -rf resume.html
 pandoc '.\resume.md' -f markdown -t html -s -o resume.html
 git checkout docs
 git rm -rf resume.html
