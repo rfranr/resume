@@ -1,4 +1,6 @@
 #!/bin/bash
+mkdir static
+
 git add resume.md
 git commit -m "deploy"
 pandoc '.\resume.md' -f markdown -t html -s -o static/resume.html
