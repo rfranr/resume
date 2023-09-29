@@ -8,7 +8,18 @@
 
 # Experiencia Profesional
 
-### <u>2007 - Actualmente</u> **Analista Programador** en *Axpe Consulting*.
+### <u>2022 - Actualmente</u> **Tech Leader** en *Quantion*.
+
+Migracion y mantenimiento de plataforma ecommerce legacy
+
+Migracion de plataforma monolitica a microservicios.
+
+Desarrollo de interfaces de usuario con el framework Vue.
+
+Desarrollo de areas privadas de cliente.
+
+
+### <u>2007 - Actualmente</u> **Analista Programador** en *Axpe Consulting*.
 
 Desarrollo de apliación de intranet de gestión disciplinaria ( Agosto 2021 - Diciembre 2021)
 
@@ -70,7 +81,7 @@ Diseño técnico y desarrollo de la gestión de contenidos del portaldelinstalad
 
 * Java, FatWire Content Managent System 5.2 , Html, CSS, Javascript, JQuery, Sql, Php, Groovy , Bash
 
-### <u> 01/11/2016 – 10/09/2007</u> **Analista Programador** en *ALTER EGO DISSENY S.L.*
+### <u> 01/11/2016 – 10/09/2007</u> **Analista Programador** en *ALTER EGO DISSENY S.L.*
 
 Desarrollo de aplicaciones Web poster2print.es, elalcoholytu.org, podocat.com…
 
@@ -84,23 +95,23 @@ Desarrollo de scripts de migraciones de datos de documentos Microsoft Word a BDD
 
 * Visual Basic for Applications
 
-### <u>01/03/2005 – 13/10/2006</u> **WebMaster** en *EVERIS BPO, SLU*
+### <u>01/03/2005 – 13/10/2006</u> **WebMaster** en *EVERIS BPO, SLU*
 
 Webmaster/Gestión de Contenidos de los portales de clientes de Gas Natural. Desarrollo de utilidades internas de administración de contenidos, automatización de procesos.
 
 * Fatwire Content Management System, OpenMarket CMS, Visual Basic for Applications
 
-### <u>15/10/2001 -14/01/2002</u> **Sistemas** en *López Mateos Moreno, José Manuel (Arquitecto)*
+### <u>15/10/2001 -14/01/2002</u> **Sistemas** en *López Mateos Moreno, José Manuel (Arquitecto)*
 
 Administración de los recursos informáticos hardware y software de la empresa.
 
-### <u>26/06/2000 – 18/12/2002</u> **Analista Programador** en *CONCATEL S.L*
+### <u>26/06/2000 – 18/12/2002</u> **Analista Programador** en *CONCATEL S.L*
 
 Desarrollo de GUI (Graphical User Interface) como cliente de un GUI en Host ( AS-400). Con el proposito de facilitar el diseño de las pantallas por parte del usuario.
 
 * BorlandC Builder , C++, WinApi
 
-### <u>06/11/1997 – 30/04/2000</u> **Analista Programador** en <i>NOVATECNIA ELECTRÓNICA S.L.</i>
+### <u>06/11/1997 – 30/04/2000</u> **Analista Programador** en <i>NOVATECNIA ELECTRÓNICA S.L.</i>
 
 Arquitectura y desarrollo de máquinas de videojuegos recreativos y de azar.
 
@@ -133,27 +144,58 @@ Arquitectura y desarrollo de máquinas de videojuegos recreativos y de azar.
 
 - #### LENGUAJES DE PROGRAMACIÓN
   
-  - C#, Java 1.5x, Javascript, TypeScript, Groovy, Sql, PL/SQL, TSQL, C++, C, Visual Basic, Bash, CSS, Html, PHP, XML, XSL
+  - C#, 
+  - Java 1.5x, 1.9x 
+  - Groovy, 
+  - Javascript, 
+  - TypeScript, 
+  - Sql, 
+  - PL/SQL, 
+  - TSQL, 
+  - C++, 
+  - C, 
+  - Visual Basic, 
+  - Bash, 
+  - CSS, 
+  - Html, 
+  - PHP, 
+  - XML, 
+  - XSL
 
 - #### CONTROL DE VERSIONES
   
-  - Git y Subversion.
+  - Git 
+  - Subversion.
 
 - #### HERRAMIENTAS DE DESARROLLO
   
-  - Eclipse Ide, Visual Studio, Sublime Text, Vi
+  - Visual Code
+  - Visual Studio
+  - Eclipse Ide
+  - Sublime Text
+  - Vi / Nano
 
 - #### CONSTRUCCIÓN DE PROYECTOS
   
-  - Gradle, Maven, Ant, Cake, Make, Bash, PowerShell, Gulp.js 
+  - Gradle
+  - Maven
+  - Ant
+  - Cake
+  - Make
+  - Webpack
+  - Bash
+  - PowerShell
+  - Gulp.js 
 
 - #### Integración Contínua
   
   - Jenkins
+  - Azuere pipelines
 
 - #### HERRAMIENTAS DE TESTING
   
-  * Unit Testing (Junit, Xunit)
+  * Front End Unit Testing (jest)
+  * Backend Unit Testing (Junit, Xunit)
   * A/B Testing
   * Load Testing (Jmeter, Bash / Curl)
   * Functional and Web Testing Automation ( Sellenium, Geb, SikuliX, Robotframework )
@@ -166,7 +208,8 @@ Arquitectura y desarrollo de máquinas de videojuegos recreativos y de azar.
 
 - #### Automatizacion de procesos
   
-  * Quartz, UC4
+  * Quartz
+  * UC4
 
 - #### Metodología de desarrollo
   
