@@ -10,9 +10,9 @@
 
 ### <u>2022 - Actualmente</u> **Tech Leader** en *Quantion*.
 
-Migracion y mantenimiento de plataforma ecommerce legacy
+Migración y mantenimiento de plataforma ecommerce legacy
 
-Migracion de plataforma monolitica a microservicios.
+Migración de plataforma monolitica a microservicios.
 
 Desarrollo de interfaces de usuario con el framework Vue.
 
