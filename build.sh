@@ -7,7 +7,7 @@ mkdir ./static
 touch ./static/.gitignore
 echo "*" > ./static/.gitignore
 
-pandoc '.\resume.md' -f markdown -t html -s -o static/resume.html
+pandoc './resume.md' -f markdown -t html -s -o static/resume.html
 
 current_dir=`pwd -P`
 
