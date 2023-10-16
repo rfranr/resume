@@ -125,30 +125,30 @@ Arquitectura y desarrollo de máquinas de videojuegos recreativos y de azar.
 
 # Formación
 
-- #### ESCUELA DE SISTEMAS INFORMÁTICOS E.S.I  <span>1994 - 1997</span>
+#### ESCUELA DE SISTEMAS INFORMÁTICOS E.S.I  <span>1994 - 1997</span>
   
   TÉCNICO SUPERIOR EN DESARROLLO DE APLICACIONES INFORMÁTICAS
 
-- #### <span>ESCUELA DE INFORMÁTICA B.I.T</span> *2001*
+#### <span>ESCUELA DE INFORMÁTICA B.I.T</span> *2001*
   
   ANALISTA PROGRAMADOR DE APLICACIONES INFORMÁTICAS EN INTERNET(JAVA)
 
 ## Certificados
 
-- #### <span>ITILF ITIL® Foundation Certificate in IT Service Management</span> *2010*
-- #### <span>DevOps Fundamentals – DASA (DevOps Agile Skills Association)</span> *2019*
+#### <span>ITILF ITIL® Foundation Certificate in IT Service Management</span> *2010*
+#### <span>DevOps Fundamentals – DASA (DevOps Agile Skills Association)</span> *2019*
 
 ## Conocimientos
 
-- #### DISEÑO DE SOFTWARE
+#### DISEÑO DE SOFTWARE
   
   - KISS, DRY y SOLID.
 
-- #### ARQUITECTURA DE SOFTWARE
+#### ARQUITECTURA DE SOFTWARE
   
   - MVC, HMVC, n-tier architecture, Event-driven, REST, SOA, ASP.NET WebApi 
 
-- #### LENGUAJES DE PROGRAMACIÓN
+#### LENGUAJES DE PROGRAMACIÓN
   
   - C#, 
   - Java 1.5x, 1.9x 
@@ -168,12 +168,12 @@ Arquitectura y desarrollo de máquinas de videojuegos recreativos y de azar.
   - XML, 
   - XSL
 
-- #### CONTROL DE VERSIONES
+#### CONTROL DE VERSIONES
   
   - Git 
   - Subversion.
 
-- #### HERRAMIENTAS DE DESARROLLO
+#### HERRAMIENTAS DE DESARROLLO
   
   - Visual Code
   - Visual Studio
@@ -181,7 +181,7 @@ Arquitectura y desarrollo de máquinas de videojuegos recreativos y de azar.
   - Sublime Text
   - Vi / Nano
 
-- #### CONSTRUCCIÓN DE PROYECTOS
+#### CONSTRUCCIÓN DE PROYECTOS
   
   - Gradle
   - Maven
@@ -193,12 +193,12 @@ Arquitectura y desarrollo de máquinas de videojuegos recreativos y de azar.
   - PowerShell
   - Gulp.js 
 
-- #### Integración Contínua
+#### Integración Contínua
   
   - Jenkins
   - Azuere pipelines
 
-- #### HERRAMIENTAS DE TESTING
+#### HERRAMIENTAS DE TESTING
   
   * Front End Unit Testing (jest)
   * Backend Unit Testing (Junit, Xunit)
@@ -207,17 +207,17 @@ Arquitectura y desarrollo de máquinas de videojuegos recreativos y de azar.
   * Functional and Web Testing Automation ( Sellenium, Geb, SikuliX, Robotframework )
   * Web API Testing ( SOAP UI, Insomnia, Curl )
 
-- #### HERRAMIENTAS DE INTEGRACION
+#### HERRAMIENTAS DE INTEGRACION
   
   * Contenedores de Máquinas Virtuales ( Docker, Oracle Virtual Box, Kubernetes )
   * Servidores de Aplicacion ( Apache, WebLogic, WebSphere, IIS7/8.5, Oracle Aplication Server, Tomcat )
 
-- #### Automatizacion de procesos
+#### Automatizacion de procesos
   
   * Quartz
   * UC4
 
-- #### Metodología de desarrollo
+#### Metodología de desarrollo
   
   * Tradicionales ( Waterfall , En Espiral )
   * Agiles ( Scrum , Kanban )
