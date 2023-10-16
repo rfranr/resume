@@ -16,11 +16,11 @@ Desarrollos evolutivos del 'Hub Acció climàtica' de 'Aigües de Barcelona'. (J
 
 Mantenimientos correctivos del 'Area de Clientes' en Parlem. (Noviembre 2022)
 
-- Net Core, Vue, MongoDb, MySql, WebComponents, Node.js, DDD, REST
+- Net Core, Vue, MongoDb, MySql, WebComponents, Node.js, SOA, REST
 
 Desarrollos evolutivos sobre plataforma ecommerce en Byrom (Abril 2022)
 
-- Net 4.8, Net Core, Quasar Framework, Sql Server, T/SQL, DDD
+- Net 4.8, Net Core, Quasar Framework, Sql Server, T/SQL, DDD, REST
 
 
 ### <u>2007 - 2022</u> **Analista Programador** en *Axpe Consulting*.
