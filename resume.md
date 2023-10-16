@@ -8,90 +8,96 @@
 
 # Experiencia Profesional
 
-### <u>2022 - Actualmente</u> **Tech Leader** en *Quantion*.
+### <u>2022/04/07 - 2023/10/06</u> **Tech Leader** en *Quantion*.
 
-Migración y mantenimiento de plataforma ecommerce legacy
+Desarrollos evolutivos del 'Hub Acció climàtica' de 'Aigües de Barcelona'. (Julio 2023)
 
-Migración de plataforma monolitica a microservicios.
+- Strapi CMS, Vue3, SCSS 
 
-Desarrollo de interfaces de usuario con el framework Vue.
+Mantenimientos correctivos del 'Area de Clientes' en Parlem. (Noviembre 2022)
 
-Desarrollo de areas privadas de cliente.
+- Net Core, Vue, MongoDb, MySql, WebComponents, Node.js, DDD, REST
+
+Desarrollos evolutivos sobre plataforma ecommerce en Byrom (Abril 2022)
+
+- Net 4.8, Net Core, Quasar Framework, Sql Server, T/SQL, DDD
 
 
-### <u>2007 - Actualmente</u> **Analista Programador** en *Axpe Consulting*.
+### <u>2007 - 2022</u> **Analista Programador** en *Axpe Consulting*.
 
-Desarrollo de apliación de intranet de gestión disciplinaria ( Agosto 2021 - Diciembre 2021)
+Desarrollo de aplicación 'Gestión Disciplinaria' para el departamento de RHH de 'Metro Madrid' ( Agosto 2021 - Diciembre 2021)
 
 - .MVC5, C#, Api Rest, Vanilla Javascript, Jquery, Oracle DB, GIT
 
-Desarrollo de herramienta de integración con SII - Suministro Inmediato de Información Agencia Tributaria ( 2021 )
+Desarrollo del servicio de 'Integración SII (Suministro Inmediato de Información Agencia Tributaria) para el VHIR' (2021 )
 
 * .Net Core, API Rest, Api Soap, GIT
 
-Desarrollo de herramienta de integración con GeFact - Factura Electrònica. (2021)
+Desarrollo de servicio de 'Integración con GeFact' para el VHIR'   (2021)
 
-* .Net Core, API Rest, Api Soap, FacturaE
+* .Net Core, API Rest, Api Soap, FacturaE (Factura Electrónica)
 
-Desarrollo de una herramienta ETL de generación de informes PDF con Crystal Reports. (2021)
+Desarrollo de la herramienta 'Generación de Informes de Ventas' para 'Lefties'. (2021)
 
 * .Net 4.8, Crystal Reports, Sql Server
 
-Arquitectura y desarrollo de un CRM/ERP de gestión en entorno Web. (2020-2021)
+Arquitectura y desarrollo evolutivo del CRM/ERP 'Hipatia' para el 'VHIR'. (2020-2021)
 
 * .Net Core, Angular2+, SqlServer
 
-Arquitectura de la aplicación de soporte Monitorización de Stocks para Massimo Dutti. (2020)
+Arquitectura de la aplicación de soporte 'Monitorización de Stocks' para 'Massimo Dutti'. (2020)
 
 * Angular2, Node ( como backend y spider para el consumo de la Api pública ), Docker, Mysql
 
-Arquitectura y desarrollo de un aplicación dashboard en entorno Web para el CatSalut.
+Arquitectura y desarrollo de la aplicación de 'Dashboard de consulta Geolocalizada' para 'CatSalut'.
 
 * Java 1.8, Mithril ( Microframework Javascript para aplicaciones SPA ), OpenLayers y Charts.js, API Soap 
 
-Mantenimiento, consultoría y migraciones de datos de la aplicación “Registres Sanitaris Agregats” del CatSalut.
+Mantenimiento y consultoría de la aplicación “Registres Sanitaris Agregats” del CatSalut.
 
 * Groovy, Bash, PL/SQL, Java
 
-Arquitectura y desarrollo de la aplicación de gestión en entorno Web: “Plataforma Disponibilat de Productes” para la empresa BSM. (Abril 2018 - Noviembre 2018)
+Arquitectura y desarrollo de la aplicación de gestión en entorno Web: “Plataforma Disponibilat de Productes” para 'BSM (Barcelona Serveis Municipals)'. (Abril 2018 - Noviembre 2018)
 
 * .Net ( Api Rest usando librería microframework NancyFx ), Angular2+ 
 
-Arquitectura y desarrollo de la aplicación de gestión en entorno Web: “Vehicles Movilitat Personal” para la empresa BSM. ( Noviembre 2017 - Julio 2018 )
+Arquitectura y desarrollo de la aplicación de gestión en entorno Web: “Vehicles Movilitat Personal” para la empresa BSM (Barcelona Serveis Municipals). ( Noviembre 2017 - Julio 2018 )
 
 * .Net WebApi, EntitityFramework, Angular2+
 
-Desarrollo de la aplicación, Web y Batch: “MTO (Monitor de cargas)” para la empresa IMI ( Institut Municipal d’Informàtica ). (Diciembre 2017 - Diciembre 2018) 
+Desarrollo de la aplicación: “MTO (Monitor de cargas)” para 'IMI (Institut Municipal d’Informàtica)'. (Diciembre 2017 - Diciembre 2018) 
 
+* Web y Batch
 * Java (Framework OpenTrends de IMI), Bash, UC4 ( Job scheduling )
 
-Desarrollo de la aplicación: “AGP Gestión de Proyectos” para las empresas VidaCaixa y SegurCaixa.
+Desarrollo de la aplicación: “AGP Gestión de Proyectos” para las 'VidaCaixa' y 'SegurCaixa'.
 
 * Java, .Net 4.8, C#,  MVC.NET, PL/SQL
 
-Desarrollo, implantacion y arquitectura de la aplicación “RSA ( Registres Sanitaris Agregats)” para el departamento del CatSalut.
+Desarrollo, implantacion y arquitectura de la aplicación “RSA (Registres Sanitaris Agregats)” para el 'CatSalut'.
 
 * Java , Linux , Bash, PL/SQL, JMeter, Implantaciones/Integraciones ( Unix, Oracle Application Server, WebSphere, Apache )
 
-Desarrollo y mantenimiento de la aplicación “RPA (Registres de Pacients)” para el departamento del CatSalut.
+Desarrollo y mantenimiento de la aplicación “RPA (Registres de Pacients)” para 'CatSalut'.
 
 * Oracle Forms, PL/SQL, Linux , Bash
 
-Diseño técnico y desarrollo de la gestión de contenidos del portaldelinstalador.es para la empresa Gas Natural.
+Diseño técnico y desarrollo de la gestión de contenidos del portaldelinstalador.es para 'Gas Natural'.
 
 * Java, FatWire Content Managent System 5.2 , Html, CSS, Javascript, JQuery, Sql, Php, Groovy , Bash
 
+
 ### <u> 01/11/2016 – 10/09/2007</u> **Analista Programador** en *ALTER EGO DISSENY S.L.*
 
-Desarrollo de aplicaciones Web poster2print.es, elalcoholytu.org, podocat.com…
+Desarrollo de 'poster2print.es', 'elalcoholytu.org', 'podocat.com'
 
 * PHP, .Net, JavaScript
 
-Desarrollo de aplicaciones de escritorio multimedia.
+Desarrollo de aplicaciones de escritorio multimedia (offline-web).
 
 * ActionScript, Macromedia Flash
 
-Desarrollo de scripts de migraciones de datos de documentos Microsoft Word a BDD.
+Migraciones de datos de documentos Microsoft Word a BDD.
 
 * Visual Basic for Applications
 
@@ -149,7 +155,6 @@ Arquitectura y desarrollo de máquinas de videojuegos recreativos y de azar.
   - Groovy, 
   - Javascript, 
   - TypeScript, 
-  - Sql, 
   - PL/SQL, 
   - TSQL, 
   - C++, 
@@ -157,8 +162,9 @@ Arquitectura y desarrollo de máquinas de videojuegos recreativos y de azar.
   - Visual Basic, 
   - Bash, 
   - CSS, 
-  - Html, 
   - PHP, 
+  - Sql, 
+  - Html, 
   - XML, 
   - XSL
 
