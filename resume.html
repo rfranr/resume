@@ -21,7 +21,7 @@
       padding-top: 50px;
       padding-bottom: 50px;
       hyphens: auto;
-      word-wrap: break-word;
+      overflow-wrap: break-word;
       text-rendering: optimizeLegibility;
       font-kerning: normal;
     }
@@ -29,6 +29,9 @@
       body {
         font-size: 0.9em;
         padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
       }
     }
     @media print {
@@ -92,6 +95,7 @@
     pre code {
       padding: 0;
       overflow: visible;
+      overflow-wrap: normal;
     }
     .sourceCode {
      background-color: transparent;
@@ -133,6 +137,12 @@
     #TOC li {
       list-style: none;
     }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
     #TOC a:not(:hover) {
       text-decoration: none;
     }
@@ -144,14 +154,17 @@
     ul.task-list{list-style: none;}
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
 </head>
 <body>
 <!-- The (first) h1 will be used as the <title> of the HTML page -->
 <h1 id="francesc-lópez-marió">Francesc López Marió</h1>
 <table>
+<colgroup>
+<col style="width: 26%" />
+<col style="width: 19%" />
+<col style="width: 14%" />
+<col style="width: 39%" />
+</colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: left;">Email</th>
@@ -170,108 +183,181 @@
 </tbody>
 </table>
 <h1 id="experiencia-profesional">Experiencia Profesional</h1>
-<h3 id="actualmente-analista-programador-en-axpe-consulting."><u>2007 - Actualmente</u> <strong>Analista Programador</strong> en <em>Axpe Consulting</em>.</h3>
-<p>Desarrollo de apliación de intranet de gestión disciplinaria ( Agosto 2021 - Diciembre 2021)</p>
+<h3 id="tech-leader-en-quantion."><u>2022/04/07 - 2023/10/06</u>
+<strong>Tech Leader</strong> en <em>Quantion</em>.</h3>
+<p>Desarrollos evolutivos del ‘Hub Acció climàtica’ de ‘Aigües de
+Barcelona’. (Julio 2023)</p>
+<ul>
+<li>Strapi CMS, Vue3, SCSS</li>
+</ul>
+<p>Mantenimientos correctivos del ‘Area de Clientes’ en Parlem.
+(Noviembre 2022)</p>
+<ul>
+<li>Net Core, Vue, MongoDb, MySql, WebComponents, Node.js, DDD,
+REST</li>
+</ul>
+<p>Desarrollos evolutivos sobre plataforma ecommerce en Byrom (Abril
+2022)</p>
+<ul>
+<li>Net 4.8, Net Core, Quasar Framework, Sql Server, T/SQL, DDD</li>
+</ul>
+<h3 id="analista-programador-en-axpe-consulting."><u>2007 - 2022</u>
+<strong>Analista Programador</strong> en <em>Axpe Consulting</em>.</h3>
+<p>Desarrollo de aplicación ‘Gestión Disciplinaria’ para el departamento
+de RHH de ‘Metro Madrid’ ( Agosto 2021 - Diciembre 2021)</p>
 <ul>
 <li>.MVC5, C#, Api Rest, Vanilla Javascript, Jquery, Oracle DB, GIT</li>
 </ul>
-<p>Desarrollo de herramienta de integración con SII - Suministro Inmediato de Información Agencia Tributaria ( 2021 )</p>
+<p>Desarrollo del servicio de ‘Integración SII (Suministro Inmediato de
+Información Agencia Tributaria) para el VHIR’ (2021 )</p>
 <ul>
 <li>.Net Core, API Rest, Api Soap, GIT</li>
 </ul>
-<p>Desarrollo de herramienta de integración con GeFact - Factura Electrònica. (2021)</p>
+<p>Desarrollo de servicio de ‘Integración con GeFact’ para el VHIR’
+(2021)</p>
 <ul>
-<li>.Net Core, API Rest, Api Soap, FacturaE</li>
+<li>.Net Core, API Rest, Api Soap, FacturaE (Factura Electrónica)</li>
 </ul>
-<p>Desarrollo de una herramienta ETL de generación de informes PDF con Crystal Reports. (2021)</p>
+<p>Desarrollo de la herramienta ‘Generación de Informes de Ventas’ para
+‘Lefties’. (2021)</p>
 <ul>
 <li>.Net 4.8, Crystal Reports, Sql Server</li>
 </ul>
-<p>Arquitectura y desarrollo de un CRM/ERP de gestión en entorno Web. (2020-2021)</p>
+<p>Arquitectura y desarrollo evolutivo del CRM/ERP ‘Hipatia’ para el
+‘VHIR’. (2020-2021)</p>
 <ul>
 <li>.Net Core, Angular2+, SqlServer</li>
 </ul>
-<p>Arquitectura de la aplicación de soporte Monitorización de Stocks para Massimo Dutti. (2020)</p>
+<p>Arquitectura de la aplicación de soporte ‘Monitorización de Stocks’
+para ‘Massimo Dutti’. (2020)</p>
 <ul>
-<li>Angular2, Node ( como backend y spider para el consumo de la Api pública ), Docker, Mysql</li>
+<li>Angular2, Node ( como backend y spider para el consumo de la Api
+pública ), Docker, Mysql</li>
 </ul>
-<p>Arquitectura y desarrollo de un aplicación dashboard en entorno Web para el CatSalut.</p>
+<p>Arquitectura y desarrollo de la aplicación de ‘Dashboard de consulta
+Geolocalizada’ para ‘CatSalut’.</p>
 <ul>
-<li>Java 1.8, Mithril ( Microframework Javascript para aplicaciones SPA ), OpenLayers y Charts.js, API Soap</li>
+<li>Java 1.8, Mithril ( Microframework Javascript para aplicaciones SPA
+), OpenLayers y Charts.js, API Soap</li>
 </ul>
-<p>Mantenimiento, consultoría y migraciones de datos de la aplicación “Registres Sanitaris Agregats” del CatSalut.</p>
+<p>Mantenimiento y consultoría de la aplicación “Registres Sanitaris
+Agregats” del CatSalut.</p>
 <ul>
 <li>Groovy, Bash, PL/SQL, Java</li>
 </ul>
-<p>Arquitectura y desarrollo de la aplicación de gestión en entorno Web: “Plataforma Disponibilat de Productes” para la empresa BSM. (Abril 2018 - Noviembre 2018)</p>
+<p>Arquitectura y desarrollo de la aplicación de gestión en entorno Web:
+“Plataforma Disponibilat de Productes” para ‘BSM (Barcelona Serveis
+Municipals)’. (Abril 2018 - Noviembre 2018)</p>
 <ul>
-<li>.Net ( Api Rest usando librería microframework NancyFx ), Angular2+</li>
+<li>.Net ( Api Rest usando librería microframework NancyFx ),
+Angular2+</li>
 </ul>
-<p>Arquitectura y desarrollo de la aplicación de gestión en entorno Web: “Vehicles Movilitat Personal” para la empresa BSM. ( Noviembre 2017 - Julio 2018 )</p>
+<p>Arquitectura y desarrollo de la aplicación de gestión en entorno Web:
+“Vehicles Movilitat Personal” para la empresa BSM (Barcelona Serveis
+Municipals). ( Noviembre 2017 - Julio 2018 )</p>
 <ul>
 <li>.Net WebApi, EntitityFramework, Angular2+</li>
 </ul>
-<p>Desarrollo de la aplicación, Web y Batch: “MTO (Monitor de cargas)” para la empresa IMI ( Institut Municipal d’Informàtica ). (Diciembre 2017 - Diciembre 2018)</p>
+<p>Desarrollo de la aplicación: “MTO (Monitor de cargas)” para ‘IMI
+(Institut Municipal d’Informàtica)’. (Diciembre 2017 - Diciembre
+2018)</p>
 <ul>
-<li>Java (Framework OpenTrends de IMI), Bash, UC4 ( Job scheduling )</li>
+<li>Web y Batch</li>
+<li>Java (Framework OpenTrends de IMI), Bash, UC4 ( Job scheduling
+)</li>
 </ul>
-<p>Desarrollo de la aplicación: “AGP Gestión de Proyectos” para las empresas VidaCaixa y SegurCaixa.</p>
+<p>Desarrollo de la aplicación: “AGP Gestión de Proyectos” para las
+‘VidaCaixa’ y ‘SegurCaixa’.</p>
 <ul>
 <li>Java, .Net 4.8, C#, MVC.NET, PL/SQL</li>
 </ul>
-<p>Desarrollo, implantacion y arquitectura de la aplicación “RSA ( Registres Sanitaris Agregats)” para el departamento del CatSalut.</p>
+<p>Desarrollo, implantacion y arquitectura de la aplicación “RSA
+(Registres Sanitaris Agregats)” para el ‘CatSalut’.</p>
 <ul>
-<li>Java , Linux , Bash, PL/SQL, JMeter, Implantaciones/Integraciones ( Unix, Oracle Application Server, WebSphere, Apache )</li>
+<li>Java , Linux , Bash, PL/SQL, JMeter, Implantaciones/Integraciones (
+Unix, Oracle Application Server, WebSphere, Apache )</li>
 </ul>
-<p>Desarrollo y mantenimiento de la aplicación “RPA (Registres de Pacients)” para el departamento del CatSalut.</p>
+<p>Desarrollo y mantenimiento de la aplicación “RPA (Registres de
+Pacients)” para ‘CatSalut’.</p>
 <ul>
 <li>Oracle Forms, PL/SQL, Linux , Bash</li>
 </ul>
-<p>Diseño técnico y desarrollo de la gestión de contenidos del portaldelinstalador.es para la empresa Gas Natural.</p>
+<p>Diseño técnico y desarrollo de la gestión de contenidos del
+portaldelinstalador.es para ‘Gas Natural’.</p>
 <ul>
-<li>Java, FatWire Content Managent System 5.2 , Html, CSS, Javascript, JQuery, Sql, Php, Groovy , Bash</li>
+<li>Java, FatWire Content Managent System 5.2 , Html, CSS, Javascript,
+JQuery, Sql, Php, Groovy , Bash</li>
 </ul>
-<h3 id="analista-programador-en-alter-ego-disseny-s.l."><u> 01/11/2016 – 10/09/2007</u> <strong>Analista Programador</strong> en <em>ALTER EGO DISSENY S.L.</em></h3>
-<p>Desarrollo de aplicaciones Web poster2print.es, elalcoholytu.org, podocat.com…</p>
+<h3 id="analista-programador-en-alter-ego-disseny-s.l."><u> 01/11/2016 –
+10/09/2007</u> <strong>Analista Programador</strong> en <em>ALTER EGO
+DISSENY S.L.</em></h3>
+<p>Desarrollo de ‘poster2print.es’, ‘elalcoholytu.org’,
+‘podocat.com’</p>
 <ul>
 <li>PHP, .Net, JavaScript</li>
 </ul>
-<p>Desarrollo de aplicaciones de escritorio multimedia.</p>
+<p>Desarrollo de aplicaciones de escritorio multimedia
+(offline-web).</p>
 <ul>
 <li>ActionScript, Macromedia Flash</li>
 </ul>
-<p>Desarrollo de scripts de migraciones de datos de documentos Microsoft Word a BDD.</p>
+<p>Migraciones de datos de documentos Microsoft Word a BDD.</p>
 <ul>
 <li>Visual Basic for Applications</li>
 </ul>
-<h3 id="webmaster-en-everis-bpo-slu"><u>01/03/2005 – 13/10/2006</u> <strong>WebMaster</strong> en <em>EVERIS BPO, SLU</em></h3>
-<p>Webmaster/Gestión de Contenidos de los portales de clientes de Gas Natural. Desarrollo de utilidades internas de administración de contenidos, automatización de procesos.</p>
+<h3 id="webmaster-en-everis-bpo-slu"><u>01/03/2005 – 13/10/2006</u>
+<strong>WebMaster</strong> en <em>EVERIS BPO, SLU</em></h3>
+<p>Webmaster/Gestión de Contenidos de los portales de clientes de Gas
+Natural. Desarrollo de utilidades internas de administración de
+contenidos, automatización de procesos.</p>
 <ul>
-<li>Fatwire Content Management System, OpenMarket CMS, Visual Basic for Applications</li>
+<li>Fatwire Content Management System, OpenMarket CMS, Visual Basic for
+Applications</li>
 </ul>
-<h3 id="sistemas-en-lópez-mateos-moreno-josé-manuel-arquitecto"><u>15/10/2001 -14/01/2002</u> <strong>Sistemas</strong> en <em>López Mateos Moreno, José Manuel (Arquitecto)</em></h3>
-<p>Administración de los recursos informáticos hardware y software de la empresa.</p>
-<h3 id="analista-programador-en-concatel-s.l"><u>26/06/2000 – 18/12/2002</u> <strong>Analista Programador</strong> en <em>CONCATEL S.L</em></h3>
-<p>Desarrollo de GUI (Graphical User Interface) como cliente de un GUI en Host ( AS-400). Con el proposito de facilitar el diseño de las pantallas por parte del usuario.</p>
+<h3
+id="sistemas-en-lópez-mateos-moreno-josé-manuel-arquitecto"><u>15/10/2001
+-14/01/2002</u> <strong>Sistemas</strong> en <em>López Mateos Moreno,
+José Manuel (Arquitecto)</em></h3>
+<p>Administración de los recursos informáticos hardware y software de la
+empresa.</p>
+<h3 id="analista-programador-en-concatel-s.l"><u>26/06/2000 –
+18/12/2002</u> <strong>Analista Programador</strong> en <em>CONCATEL
+S.L</em></h3>
+<p>Desarrollo de GUI (Graphical User Interface) como cliente de un GUI
+en Host ( AS-400). Con el proposito de facilitar el diseño de las
+pantallas por parte del usuario.</p>
 <ul>
 <li>BorlandC Builder , C++, WinApi</li>
 </ul>
-<h3 id="analista-programador-en-novatecnia-electrónica-s.l."><u>06/11/1997 – 30/04/2000</u> <strong>Analista Programador</strong> en <i>NOVATECNIA ELECTRÓNICA S.L.</i></h3>
-<p>Arquitectura y desarrollo de máquinas de videojuegos recreativos y de azar.</p>
+<h3
+id="analista-programador-en-novatecnia-electrónica-s.l."><u>06/11/1997 –
+30/04/2000</u> <strong>Analista Programador</strong> en <i>NOVATECNIA
+ELECTRÓNICA S.L.</i></h3>
+<p>Arquitectura y desarrollo de máquinas de videojuegos recreativos y de
+azar.</p>
 <ul>
 <li>C/C++, DirectX, Win95, CalderaOs</li>
 </ul>
 <h1 id="formación">Formación</h1>
 <ul>
-<li><h4 id="escuela-de-sistemas-informáticos-e.s.i-1994---1997">ESCUELA DE SISTEMAS INFORMÁTICOS E.S.I <span>1994 - 1997</span></h4>
+<li><h4 id="escuela-de-sistemas-informáticos-e.s.i-1994---1997">ESCUELA
+DE SISTEMAS INFORMÁTICOS E.S.I <span>1994 - 1997</span></h4>
 <p>TÉCNICO SUPERIOR EN DESARROLLO DE APLICACIONES INFORMÁTICAS</p></li>
-<li><h4 id="escuela-de-informática-b.i.t-2001"><span>ESCUELA DE INFORMÁTICA B.I.T</span> <em>2001</em></h4>
-<p>ANALISTA PROGRAMADOR DE APLICACIONES INFORMÁTICAS EN INTERNET(JAVA)</p></li>
+<li><h4 id="escuela-de-informática-b.i.t-2001"><span>ESCUELA DE
+INFORMÁTICA B.I.T</span> <em>2001</em></h4>
+<p>ANALISTA PROGRAMADOR DE APLICACIONES INFORMÁTICAS EN
+INTERNET(JAVA)</p></li>
 </ul>
 <h2 id="certificados">Certificados</h2>
 <ul>
-<li><h4 id="itilf-itil-foundation-certificate-in-it-service-management-2010"><span>ITILF ITIL® Foundation Certificate in IT Service Management</span> <em>2010</em></h4></li>
-<li><h4 id="devops-fundamentals-dasa-devops-agile-skills-association-2019"><span>DevOps Fundamentals – DASA (DevOps Agile Skills Association)</span> <em>2019</em></h4></li>
+<li><h4
+id="itilf-itil-foundation-certificate-in-it-service-management-2010"><span>ITILF
+ITIL® Foundation Certificate in IT Service Management</span>
+<em>2010</em></h4></li>
+<li><h4
+id="devops-fundamentals-dasa-devops-agile-skills-association-2019"><span>DevOps
+Fundamentals – DASA (DevOps Agile Skills Association)</span>
+<em>2019</em></h4></li>
 </ul>
 <h2 id="conocimientos">Conocimientos</h2>
 <ul>
@@ -281,44 +367,81 @@
 </ul></li>
 <li><h4 id="arquitectura-de-software">ARQUITECTURA DE SOFTWARE</h4>
 <ul>
-<li>MVC, HMVC, n-tier architecture, Event-driven, REST, SOA, ASP.NET WebApi</li>
+<li>MVC, HMVC, n-tier architecture, Event-driven, REST, SOA, ASP.NET
+WebApi</li>
 </ul></li>
 <li><h4 id="lenguajes-de-programación">LENGUAJES DE PROGRAMACIÓN</h4>
 <ul>
-<li>C#, Java 1.5x, Javascript, TypeScript, Groovy, Sql, PL/SQL, TSQL, C++, C, Visual Basic, Bash, CSS, Html, PHP, XML, XSL</li>
+<li>C#,</li>
+<li>Java 1.5x, 1.9x</li>
+<li>Groovy,</li>
+<li>Javascript,</li>
+<li>TypeScript,</li>
+<li>PL/SQL,</li>
+<li>TSQL,</li>
+<li>C++,</li>
+<li>C,</li>
+<li>Visual Basic,</li>
+<li>Bash,</li>
+<li>CSS,</li>
+<li>PHP,</li>
+<li>Sql,</li>
+<li>Html,</li>
+<li>XML,</li>
+<li>XSL</li>
 </ul></li>
 <li><h4 id="control-de-versiones">CONTROL DE VERSIONES</h4>
 <ul>
-<li>Git y Subversion.</li>
+<li>Git</li>
+<li>Subversion.</li>
 </ul></li>
 <li><h4 id="herramientas-de-desarrollo">HERRAMIENTAS DE DESARROLLO</h4>
 <ul>
-<li>Eclipse Ide, Visual Studio, Sublime Text, Vi</li>
+<li>Visual Code</li>
+<li>Visual Studio</li>
+<li>Eclipse Ide</li>
+<li>Sublime Text</li>
+<li>Vi / Nano</li>
 </ul></li>
 <li><h4 id="construcción-de-proyectos">CONSTRUCCIÓN DE PROYECTOS</h4>
 <ul>
-<li>Gradle, Maven, Ant, Cake, Make, Bash, PowerShell, Gulp.js</li>
+<li>Gradle</li>
+<li>Maven</li>
+<li>Ant</li>
+<li>Cake</li>
+<li>Make</li>
+<li>Webpack</li>
+<li>Bash</li>
+<li>PowerShell</li>
+<li>Gulp.js</li>
 </ul></li>
 <li><h4 id="integración-contínua">Integración Contínua</h4>
 <ul>
 <li>Jenkins</li>
+<li>Azuere pipelines</li>
 </ul></li>
 <li><h4 id="herramientas-de-testing">HERRAMIENTAS DE TESTING</h4>
 <ul>
-<li>Unit Testing (Junit, Xunit)</li>
+<li>Front End Unit Testing (jest)</li>
+<li>Backend Unit Testing (Junit, Xunit)</li>
 <li>A/B Testing</li>
 <li>Load Testing (Jmeter, Bash / Curl)</li>
-<li>Functional and Web Testing Automation ( Sellenium, Geb, SikuliX, Robotframework )</li>
+<li>Functional and Web Testing Automation ( Sellenium, Geb, SikuliX,
+Robotframework )</li>
 <li>Web API Testing ( SOAP UI, Insomnia, Curl )</li>
 </ul></li>
-<li><h4 id="herramientas-de-integracion">HERRAMIENTAS DE INTEGRACION</h4>
+<li><h4 id="herramientas-de-integracion">HERRAMIENTAS DE
+INTEGRACION</h4>
 <ul>
-<li>Contenedores de Máquinas Virtuales ( Docker, Oracle Virtual Box, Kubernetes )</li>
-<li>Servidores de Aplicacion ( Apache, WebLogic, WebSphere, IIS7/8.5, Oracle Aplication Server, Tomcat )</li>
+<li>Contenedores de Máquinas Virtuales ( Docker, Oracle Virtual Box,
+Kubernetes )</li>
+<li>Servidores de Aplicacion ( Apache, WebLogic, WebSphere, IIS7/8.5,
+Oracle Aplication Server, Tomcat )</li>
 </ul></li>
 <li><h4 id="automatizacion-de-procesos">Automatizacion de procesos</h4>
 <ul>
-<li>Quartz, UC4</li>
+<li>Quartz</li>
+<li>UC4</li>
 </ul></li>
 <li><h4 id="metodología-de-desarrollo">Metodología de desarrollo</h4>
 <ul>
