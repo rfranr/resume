@@ -4,7 +4,7 @@
   <tr>
   <td>
     <div class="card">
-      <i!-- mg src="profile.jpg" width="90px" alt="Foto de Perfil" -->
+      <!--img src="profile.jpg" width="90px" alt="Foto de Perfil" -->
       <p>Barcelona</p>
     </div>
   </td>
