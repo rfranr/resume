@@ -4,7 +4,7 @@
   <tr>
   <td>
     <div class="card">
-      <img src="profile.jpg" width="90px" alt="Foto de Perfil">
+      <i!-- mg src="profile.jpg" width="90px" alt="Foto de Perfil" -->
       <p>Barcelona</p>
     </div>
   </td>
@@ -170,36 +170,32 @@ Arquitectura y desarrollo de máquinas de videojuegos recreativos y de azar.
   
   - MVC, HMVC, n-tier architecture, Event-driven, REST, SOA, ASP.NET WebApi 
 
-#### LENGUAJES DE PROGRAMACIÓN
+#### LENGUAJES 
 
 ``` 
-< C#         >  |   <Java (1.5x, 1.9x)>     |        Groovy             >
-< Javascript >  |   <TypeScript>            |        Python             >
-< PL/SQL     >  |   <TSQL>                  |        C++                >
-< C          >  |   <Visual Basic>          |        Bash               >
-< CSS        >  |   <PHP>                   |        SQL                >
-< HTML       >  |   <XML>                   |        XSL                >
+C#, Java (1.5x, 1.9x), Groovy, Javascript, 
+TypeScript, Python, PL/SQL, TSQL, C++, C, 
+Visual Basic Bash, CSS, PHP, SQL, 
+HTML, XML, XSL
 ```
 
 #### CONTROL DE VERSIONES
-``` js
-| Git           |   Subversion              |
+``` 
+Git, Subversion
 ```
 
 #### HERRAMIENTAS DE DESARROLLO
 
-``` js
-| Visual Studio Code      | Visual Studio   |
-| Eclipse                 | Sublime Text    |
-| Vim/Nano                | JetBrains       |
+``` 
+Visual Studio Code, Visual Studio, Eclipse,
+Sublime Text, Vim/Nano, JetBrains
 ```
 
 #### CONSTRUCCIÓN DE PROYECTOS
   
-```python
-| Gradle                  |  Maven          |    Ant            | 
-| Make                    |  Webpack        |    Bash           |  
-| PowerShell              |  Gulp.js        |    Cake           |
+```
+Gradle, Maven, Ant, Make, Webpack, Bash,
+PowerShell, Gulp.js, Cake
 ```
 
 #### INTEGRACIÓN CONTÍNUA
