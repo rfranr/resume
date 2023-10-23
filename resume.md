@@ -1,14 +1,12 @@
 # Francesc López Marió
 
-
-| Email            | Teléfono     | Ubicación | Github                    |
-|:---------------- | ------------ | --------- | ------------------------- |
-| rfranr@gmail.com | +34655036238 | Barcelona | https://github.com/rfranr |
-
 <table style="width:100%">
   <tr>
   <td>
-    <img src="profile.jpg" width="90px" alt="Foto de Perfil">
+    <div class="card">
+      <img src="profile.jpg" width="90px" alt="Foto de Perfil">
+      <p>Barcelona</p>
+    </div>
   </td>
     <td style="text-align:end">
 <p><i>
