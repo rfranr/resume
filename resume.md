@@ -1,35 +1,54 @@
 <!-- The (first) h1 will be used as the <title> of the HTML page -->
 
+
 # Francesc López Marió
+
 
 | Email            | Teléfono     | Ubicación | Github                    |
 |:---------------- | ------------ | --------- | ------------------------- |
-| rfranr@gmail.com | +34xxxxxxxxx | Barcelona | https://github.com/rfranr |
+| rfranr@gmail.com | +34655036238 | Barcelona | https://github.com/rfranr |
+
+<table style="width:100%">
+  <tr>
+  <td>
+    <img src="profile.jpg" width="90px" alt="Foto de Perfil">
+  </td>
+    <td style="text-align:end">
+<p><i>
+  Con más de veinte años de experiencia desde el desarrollo a implantaciones de software.</code>
+    </i></p>
+  </tr>
+</table>
+
 
 # Experiencia Profesional
 
 ### <u>2022/04/07 - 2023/10/06</u> **Tech Leader** en *Quantion*.
 
-Desarrollos evolutivos del 'Hub Acció climàtica' de 'Aigües de Barcelona'. (Julio 2023)
+> ''*En mi experiencia en la empresa Quantion, participé en proyectos ágiles usando mi conocimiento en diversas tecnologías.*''
 
-- Strapi CMS, Vue3, SCSS 
+Desarrollos evolutivos en entorno Agile del 'Hub Acció climàtica' de 'Aigües de Barcelona'. (Julio 2023)
+
+- Strapi CMS, Vue3, SCSS, Docker, Azure Devops 
 
 Mantenimientos correctivos del 'Area de Clientes' en Parlem. (Noviembre 2022)
 
-- Net Core, Vue, MongoDb, MySql, WebComponents, Node.js, SOA, REST
+- Net Core, Vue, MongoDb, MySql, WebComponents, Node.js, SOA, REST, Docker, Azure Devops 
 
 Desarrollos evolutivos sobre plataforma ecommerce en Byrom (Abril 2022)
 
-- Net 4.8, Net Core, Quasar Framework, Sql Server, T/SQL, DDD, REST
+- Net 4.8, Net Core, Quasar Framework, Sql Server, T/SQL, DDD, REST, Azure Devops 
 
 
 ### <u>2007 - 2022</u> **Analista Programador** en *Axpe Consulting*.
+
+>''*En mi experiencia en la empresa Axpe Consulting, desempeñé diversas funciones y proyectos en el ámbito de desarrollo de software y arquitectura de aplicaciones para una variedad de clientes y organizaciones. Abarcando desde el desarrollo , devops y análisis orgánico. Algunas de las tareas y proyectos más destacados incluyeron:*''
 
 Desarrollo de aplicación 'Gestión Disciplinaria' para el departamento de RHH de 'Metro Madrid' ( Agosto 2021 - Diciembre 2021)
 
 - .MVC5, C#, Api Rest, Vanilla Javascript, Jquery, Oracle DB, GIT
 
-Desarrollo del servicio de 'Integración SII (Suministro Inmediato de Información Agencia Tributaria) para el VHIR' (2021 )
+Desarrollo del servicio de 'Integración SII (Suministro Inmediato de Información Agencia Tributaria) para el VHIR (Vall d'hebron Institut de Recerca)' (2021 )
 
 * .Net Core, API Rest, Api Soap, GIT
 
@@ -47,7 +66,7 @@ Arquitectura y desarrollo evolutivo del CRM/ERP 'Hipatia' para el 'VHIR'. (2020-
 
 Arquitectura de la aplicación de soporte 'Monitorización de Stocks' para 'Massimo Dutti'. (2020)
 
-* Angular2, Node ( como backend y spider para el consumo de la Api pública ), Docker, Mysql
+* Angular2, Node, Docker, Mysql
 
 Arquitectura y desarrollo de la aplicación de 'Dashboard de consulta Geolocalizada' para 'CatSalut'.
 
@@ -84,10 +103,12 @@ Desarrollo y mantenimiento de la aplicación “RPA (Registres de Pacients)” p
 
 Diseño técnico y desarrollo de la gestión de contenidos del portaldelinstalador.es para 'Gas Natural'.
 
-* Java, FatWire Content Managent System 5.2 , Html, CSS, Javascript, JQuery, Sql, Php, Groovy , Bash
+* Java, FatWire Content Managent System 5.2 ,  MVNForum, Html, CSS, Javascript, JQuery, Sql, Php, Groovy , Bash
 
 
 ### <u> 01/11/2016 – 10/09/2007</u> **Analista Programador** en *ALTER EGO DISSENY S.L.*
+
+>''*Estas experiencias en la empresa ALTER EGO DISSENY S.L., reflejan mis habilidades en desarrollo web, aplicaciones multimedia y gestión de datos.*''
 
 Desarrollo de 'poster2print.es', 'elalcoholytu.org', 'podocat.com'
 
@@ -103,7 +124,9 @@ Migraciones de datos de documentos Microsoft Word a BDD.
 
 ### <u>01/03/2005 – 13/10/2006</u> **WebMaster** en *EVERIS BPO, SLU*
 
-Webmaster/Gestión de Contenidos de los portales de clientes de Gas Natural. Desarrollo de utilidades internas de administración de contenidos, automatización de procesos.
+>''*Estas experiencias destacan mi capacidad para gestionar eficazmente contenidos web, desarrollar soluciones personalizadas y optimizar procesos.*''
+
+Webmaster/Gestión de Contenidos de los portales de clientes de Gas Natural. Desarrollo de utilidades internas de administración de contenidos y automatización de procesos.
 
 * Fatwire Content Management System, OpenMarket CMS, Visual Basic for Applications
 
@@ -113,11 +136,15 @@ Administración de los recursos informáticos hardware y software de la empresa.
 
 ### <u>26/06/2000 – 18/12/2002</u> **Analista Programador** en *CONCATEL S.L*
 
-Desarrollo de GUI (Graphical User Interface) como cliente de un GUI en Host ( AS-400). Con el proposito de facilitar el diseño de las pantallas por parte del usuario.
+>''*Estas experiencias resaltan mi habilidad para crear interfaces de usuario efectivas.*'''
+
+Desarrollo de una *user interface rica* consumiendo otra interface en modo texto. Siendo esta proporcionada por una aplicación cliente de un *Host (AS-400)*. El objetivo de mejorar la experiencia del usuario.
 
 * BorlandC Builder , C++, WinApi
 
 ### <u>06/11/1997 – 30/04/2000</u> **Analista Programador** en <i>NOVATECNIA ELECTRÓNICA S.L.</i>
+
+>''*Destaca mis habilidades técnicas, mi conocimiento en programación y comunicación con el departamento de diseño.*''
 
 Arquitectura y desarrollo de máquinas de videojuegos recreativos y de azar.
 
@@ -127,16 +154,16 @@ Arquitectura y desarrollo de máquinas de videojuegos recreativos y de azar.
 
 #### ESCUELA DE SISTEMAS INFORMÁTICOS E.S.I  <span>1994 - 1997</span>
   
-  TÉCNICO SUPERIOR EN DESARROLLO DE APLICACIONES INFORMÁTICAS
+#### TÉCNICO SUPERIOR EN DESARROLLO DE APLICACIONES INFORMÁTICAS
 
-#### <span>ESCUELA DE INFORMÁTICA B.I.T</span> *2001*
+##### <span>ESCUELA DE INFORMÁTICA B.I.T</span> *2001*
   
-  ANALISTA PROGRAMADOR DE APLICACIONES INFORMÁTICAS EN INTERNET(JAVA)
+##### ANALISTA PROGRAMADOR DE APLICACIONES INFORMÁTICAS EN INTERNET(JAVA)
 
 ## Certificados
 
-#### <span>ITILF ITIL® Foundation Certificate in IT Service Management</span> *2010*
-#### <span>DevOps Fundamentals – DASA (DevOps Agile Skills Association)</span> *2019*
+- <span>ITILF ITIL® Foundation Certificate in IT Service Management</span> *2010*
+- <span>DevOps Fundamentals – DASA (DevOps Agile Skills Association)</span> *2019*
 
 ## Conocimientos
 
@@ -149,51 +176,38 @@ Arquitectura y desarrollo de máquinas de videojuegos recreativos y de azar.
   - MVC, HMVC, n-tier architecture, Event-driven, REST, SOA, ASP.NET WebApi 
 
 #### LENGUAJES DE PROGRAMACIÓN
-  
-  - C#, 
-  - Java 1.5x, 1.9x 
-  - Groovy, 
-  - Javascript, 
-  - TypeScript, 
-  - PL/SQL, 
-  - TSQL, 
-  - C++, 
-  - C, 
-  - Visual Basic, 
-  - Bash, 
-  - CSS, 
-  - PHP, 
-  - Sql, 
-  - Html, 
-  - XML, 
-  - XSL
+
+``` 
+< C#         >  |   <Java (1.5x, 1.9x)>     |        Groovy             >
+< Javascript >  |   <TypeScript>            |        Python             >
+< PL/SQL     >  |   <TSQL>                  |        C++                >
+< C          >  |   <Visual Basic>          |        Bash               >
+< CSS        >  |   <PHP>                   |        SQL                >
+< HTML       >  |   <XML>                   |        XSL                >
+```
 
 #### CONTROL DE VERSIONES
-  
-  - Git 
-  - Subversion.
+``` js
+| Git           |   Subversion              |
+```
 
 #### HERRAMIENTAS DE DESARROLLO
-  
-  - Visual Code
-  - Visual Studio
-  - Eclipse Ide
-  - Sublime Text
-  - Vi / Nano
+
+``` js
+| Visual Studio Code      | Visual Studio   |
+| Eclipse                 | Sublime Text    |
+| Vim/Nano                | JetBrains       |
+```
 
 #### CONSTRUCCIÓN DE PROYECTOS
   
-  - Gradle
-  - Maven
-  - Ant
-  - Cake
-  - Make
-  - Webpack
-  - Bash
-  - PowerShell
-  - Gulp.js 
+```python
+| Gradle                  |  Maven          |    Ant            | 
+| Make                    |  Webpack        |    Bash           |  
+| PowerShell              |  Gulp.js        |    Cake           |
+```
 
-#### Integración Contínua
+#### INTEGRACIÓN CONTÍNUA
   
   - Jenkins
   - Azuere pipelines
@@ -212,12 +226,12 @@ Arquitectura y desarrollo de máquinas de videojuegos recreativos y de azar.
   * Contenedores de Máquinas Virtuales ( Docker, Oracle Virtual Box, Kubernetes )
   * Servidores de Aplicacion ( Apache, WebLogic, WebSphere, IIS7/8.5, Oracle Aplication Server, Tomcat )
 
-#### Automatizacion de procesos
+#### AUTOMATIZACION DE PROCESOS
   
   * Quartz
   * UC4
 
-#### Metodología de desarrollo
+#### METODOLOGÍA DE DESARROLLO
   
   * Tradicionales ( Waterfall , En Espiral )
   * Agiles ( Scrum , Kanban )
