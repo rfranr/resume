@@ -28,6 +28,7 @@
         }
     
         .section {
+            margin-top: 2px;
             margin-bottom: 20px;
         }
     
@@ -43,6 +44,8 @@
             border-radius: 4px;
             padding: 15px;
             margin-bottom: 10px;
+
+            page-break-inside:avoid;
         }
     
         ul {
@@ -61,8 +64,10 @@
     
         .skills-grid .box {
             text-align: center;
-            padding: 5px;
-            font-size: 12px;
+            padding: 0px;
+            font-size: 8px;
+
+            page-break-inside:avoid;
         }
     
         .contact {
@@ -87,6 +92,30 @@
             color: #f0ad4e;
             font-weight: bold;
         }
+
+        @media (max-width: 600px) {
+        .skills-grid {
+            grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+        }
+        
+        h1, h2 {
+            font-size: 1.2em;
+        }
+
+        .container {
+            padding: 15px;
+        }
+
+        .contact {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .contact a {
+            margin-top: 5px;
+        }
+    }
+        
     </style>
 </head>
 <body>
