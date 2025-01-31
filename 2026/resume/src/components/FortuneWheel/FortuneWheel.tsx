@@ -1,37 +1,112 @@
 import { Component, createRef } from "preact";
+import {Application, Assets, Sprite} from "pixi.js"
 
 export class FortuneWheel extends Component<{title?:string}> {
     divElement = createRef<HTMLDivElement> ()
-
+    canvasElement = createRef<HTMLDivElement> ()
 
     
-    constructor() {
-        super();
+    state = {
+        launchPixi: false
+    }
+
+    setLaunchPixi() {
+        this.setState({ launchPixi: true })
+    };
+
+
+    async pixijs() {
+        const {launchPixi} = this.state;
+        if (!launchPixi) return;
+
+        // Create a new application
+        const app = new Application();
+
+        // Initialize the application
+        await app.init(
+            { 
+//                background: '#1099bb', 
+                resolution: window.devicePixelRatio,
+                autoDensity: true,
+                antialias: true,
+                powerPreference: 'high-performance',
+                autoStart: true,
+                clearBeforeRender: true,
+                preserveDrawingBuffer: false,
+                roundPixels: true,
+                //backgroundColor: '#FFFFFF',
+                backgroundAlpha: 0
+            });
+
+            // Append the application canvas to the document body
+        this.canvasElement.current.appendChild(app.canvas);
+
+        // Load the bunny texture
+        const texture = await Assets.load('https://pixijs.com/assets/bunny.png');
+
+        // Create a bunny Sprite
+        const bunny = new Sprite(texture);
+
+        // Center the sprite's anchor point
+        bunny.anchor.set(0.5);
+
+        // Move the sprite to the center of the screen
+        bunny.x = app.screen.width / 2;
+        bunny.y = app.screen.height / 2;
+
+        app.stage.addChild(bunny);
+
+        // Listen for animate update
+        app.ticker.add((time) =>
+        {
+            // Just for fun, let's rotate mr rabbit a little.
+            // * Delta is 1 if running at 100% performance *
+            // * Creates frame-independent transformation *
+            bunny.rotation += 0.1 * time.deltaTime;
+        });
     }
 
     componentDidMount() {
         console.log("component did mount");
         this.divElement.current.classList.add('animate__animated', 'animate__tada', 'resource__hover');
+
+        // pixijs
+        this.pixijs().finally(() => {
+            console.log ("PIXI JS ");
+        });
+    }
+
+    componentDidUpdate() {
+        this.pixijs().finally(() => {
+            console.log ("PIXI JS (UPDATE)");
+        });
     }
 
 
     render() {
         return (
+            <>
+            <button onClick={ () => this.setLaunchPixi()}>Launch</button>
             <div ref={this.divElement}>
-
 <div style="width: 0; height: 0; border-left: 50px solid transparent; 
             border-right: 50px solid transparent; 
             border-top: 50px solid green; margin: 2rem;">
 </div>
                 
                 <p>{"HELLO"}</p>
-            
-                <svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <path d="M100,100 L100,0 A100,100 0 0,1 180.71,19.29 Z" fill="red" stroke="black" stroke-width="2"/>
-</svg>
-
-            
             </div>
+ 
+            { this.state.launchPixi &&
+            <div ref={this.canvasElement} style={{
+                zIndex: 1000, // ensure it's always on top of other elements
+                display: 'flex', 
+                justifyContent: 'center', 
+                alignItems: 'center'  // center align text within the container
+            }}>
+            </div>
+
+            }
+            </>
 
             
         );
