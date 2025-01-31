@@ -29,10 +29,10 @@ export const useMousePosition= () => {
   
   
   useEffect(() => {
-    console.debug("useMousePosition called");
+    //console.debug("useMousePosition called");
 
     const setFromEvent = (e) => {
-      console.log ( "set position called", e.clientX, e.clientY );
+      //console.log ( "set position called", e.clientX, e.clientY );
 
 
       const s = { x: e.clientX, y: e.clientY }

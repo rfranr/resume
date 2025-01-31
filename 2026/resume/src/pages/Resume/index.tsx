@@ -1,10 +1,12 @@
 import Button from '../../components/Button/Button';
+import { FortuneWheel } from '../../components/FortuneWheel/FortuneWheel';
 import ProjectBox from '../../components/Resume/ResumeHeader';
 import './style.scss';
 
 export function Resume() {
 	return (
 		<div class="home">
+			<FortuneWheel />
 			<h1>Get Started building Vite-powered Preact Apps </h1>
 			<section>
 			<ProjectBox  description='dsa' link='fdf' techStack={['a', 'b', 'c', 'd', 'e']}  title='dfdfa' />

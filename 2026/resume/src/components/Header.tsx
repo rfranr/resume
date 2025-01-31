@@ -1,14 +1,31 @@
 import { useLocation } from 'preact-iso';
 import { useMousePosition } from '../helpers/useMousePosition';
+import { useContext, useState } from 'preact/hooks';
+import { AppState } from '..';
+import { effect } from '@preact/signals';
 
 export function Header() {
 	const { url } = useLocation();
 	const {x,y} = useMousePosition();
+	const {todos} = useContext(AppState);
+	const {value} = todos
+	const [s, setS] = useState("");
+
+	effect(() => {
+		console.log('Hello', todos.value)
+		setS(todos.value.join(','));
+	});
+
+	todos.subscribe((value) => {
+		console.log('Hello', todos.value)
+		setS(todos.value.join(','));
+	});
 
 	return (
 		<header>
 			<nav>
-				{x} - {y}
+				{todos}
+				{x} - {y} - {s} - {todos.value} - {value}
 				<a href="/" class={url == '/' && 'active'}>
 					Home
 				</a>
