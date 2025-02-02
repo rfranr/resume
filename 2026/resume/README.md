@@ -18,3 +18,10 @@
 
 ## Theory color
 https://medium.com/rutgers-creative-x/understanding-color-for-ui-design-ec53719e880e
+
+
+https://github.com/preactjs/preact-iso
+
+minigames
+https://konvajs.org/docs/sandbox/Wheel_of_Fortune.html
+https://two.js.org/

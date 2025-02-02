@@ -1,13 +1,19 @@
-import { LocationProvider, Router, Route, hydrate, prerender as ssr } from 'preact-iso';
+import { LocationProvider, Router, Route, hydrate, prerender as ssr, lazy } from 'preact-iso';
 
 import { Header } from './components/Header.jsx';
 import { Home } from './pages/Home/index.jsx';
-import { NotFound } from './pages/_404.jsx';
+//import { NotFound } from './pages/_404.jsx';
+
+
 import './style.scss';
-import { Resume } from './pages/Resume/index.js';
-import "preact/debug";
+//import "preact/debug";
 import { createContext, options } from 'preact';
 import { computed, signal } from '@preact/signals';
+//import { Resume } from './pages/Resume/index.js';
+
+// Lazy load Resume
+//const Resume = lazy(() => import('./pages/Resume/index.js'));
+
 
 function applyColors() {
 	// Modify Css var
@@ -41,16 +47,16 @@ function createAppState() {
 //	window.appState.mousePosition.set({ x: e.clientX, y: e.clientY });
 //});
 
-setInterval( () => {
-	console.log ( "Interval") ;
-	
-    // Increment the todos array every second
-	const _newState = state.todos.value.map((todo) => todo);
-	_newState.push(_newState.length + 1);
-	state.todos.value = _newState;
-
-	//state.todos.value.push(state.todos.value.length + 1);
-}, 1000 );
+//setInterval( () => {
+//	console.debug ( "Interval") ;
+//	
+//    // Increment the todos array every second
+//	const _newState = state.todos.value.map((todo) => todo);
+//	_newState.push(_newState.length + 1);
+//	state.todos.value = _newState;
+//
+//	//state.todos.value.push(state.todos.value.length + 1);
+//}, 1000 );
 
 
 const state = createAppState();
@@ -59,7 +65,13 @@ export const AppState = createContext(state);
 
 
 
+const NotFound = lazy(() => import('./pages/_404.jsx'));
+const Resume = lazy(() => import('./pages/Resume/index.js'));
+
+
+
 export function App() {
+
 	return (
 			<LocationProvider>
 				<Header />
@@ -68,8 +80,9 @@ export function App() {
 						<Route path="/" component={Home} />
 						<Route path="/resume" component={Resume} />
 						<Route default component={NotFound} />
+						<NotFound default />
 					</Router>
-				</main>
+					</main>
 			</LocationProvider>
 	);
 }

@@ -12,12 +12,12 @@ export function Header() {
 	const [s, setS] = useState("");
 
 	effect(() => {
-		console.log('Hello', todos.value)
+		//console.debug('Hello', todos.value)
 		setS(todos.value.join(','));
 	});
 
 	todos.subscribe((value) => {
-		console.log('Hello', todos.value)
+		//console.debug('Hello', todos.value)
 		setS(todos.value.join(','));
 	});
 

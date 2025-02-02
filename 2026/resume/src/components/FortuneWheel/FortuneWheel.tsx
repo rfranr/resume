@@ -1,7 +1,11 @@
+import { Application, Assets, Sprite } from "pixi.js";
 import { Component, createRef } from "preact";
-import {Application, Assets, Sprite} from "pixi.js"
+//import type { Application as PIXI_Application, Assets as PIXI_Assets, Sprite as PIXI_Sprite } from 'pixi.js';
 
-export class FortuneWheel extends Component<{title?:string}> {
+
+const importWithoutVite = (path: string) => import(/* @vite-ignore */ path);
+
+export default class FortuneWheel extends Component<{title?:string}> {
     divElement = createRef<HTMLDivElement> ()
     canvasElement = createRef<HTMLDivElement> ()
 
@@ -18,6 +22,31 @@ export class FortuneWheel extends Component<{title?:string}> {
     async pixijs() {
         const {launchPixi} = this.state;
         if (!launchPixi) return;
+
+        // 🗝️ This prevents Vite from optimizing pixi.js during build
+        
+        //const { Application, Assets, Sprite } = await import('pixi.js');
+        // Dynamically load Pixi.js from CDN
+        //const pixiModule = await import('https://cdn.jsdelivr.net/npm/pixi.js@8.7.3/dist/pixi.min.mjs');
+        //const { Application, Assets, Sprite } = pixiModule;
+
+        //const configModule = await importWithoutVite(
+        //    import.meta.env.PROD ? 'https://cdn.jsdelivr.net/npm/pixi.js@8.7.3/dist/pixi.min.mjs' : 'pixi.js'
+        //);
+        //const { Application, Assets, Sprite } = configModule;
+
+
+        //const pixiModule = async () => {
+        //    if ( !import.meta.env.PROD )
+        //        return await import('pixi.js');
+        //    else
+        //        return await import('https://cdn.jsdelivr.net/npm/pixi.js@8.7.3/dist/pixi.min.mjs');
+        //}
+        //const { Application, Assets, Sprite }: { 
+        //    Application: typeof PIXI_Application; 
+        //    Assets: typeof PIXI_Assets; 
+        //    Sprite: typeof PIXI_Sprite; 
+        //} = await pixiModule();
 
         // Create a new application
         const app = new Application();
@@ -64,6 +93,7 @@ export class FortuneWheel extends Component<{title?:string}> {
             // * Creates frame-independent transformation *
             bunny.rotation += 0.1 * time.deltaTime;
         });
+
     }
 
     componentDidMount() {

@@ -1,12 +1,16 @@
+import { lazy } from 'preact-iso';
 import Button from '../../components/Button/Button';
-import { FortuneWheel } from '../../components/FortuneWheel/FortuneWheel';
+//import { FortuneWheel } from '../../components/FortuneWheel/FortuneWheel';
 import ProjectBox from '../../components/Resume/ResumeHeader';
 import './style.scss';
 
-export function Resume() {
+
+const FortuneWheel = lazy (() => import ('../../components/FortuneWheel/FortuneWheel'))
+
+function Resume() {
 	return (
 		<div class="home">
-			<FortuneWheel />
+				<FortuneWheel />
 			<h1>Get Started building Vite-powered Preact Apps </h1>
 			<section>
 			<ProjectBox  description='dsa' link='fdf' techStack={['a', 'b', 'c', 'd', 'e']}  title='dfdfa' />
@@ -34,3 +38,5 @@ function Resource(props) {
 		</a>
 	);
 }
+
+export default Resume;

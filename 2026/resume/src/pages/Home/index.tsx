@@ -119,13 +119,16 @@ class Resource extends Component<{href:string, title:string, description:string}
 			// check boundary position of mouse position vs box position
 			if (e.offsetX <= 20  || e.offsetX >= this.divElement.current.offsetWidth -20 ||
 				e.offsetY <= 20  || e.offsetY >= this.divElement.current.offsetHeight -20) {
+				//this.divElement.current.style.border = '1px cyan dashed';
 				return;
+
 			}
 
 			//check if class is already added
 			if (this.divElement.current.classList.contains('animate__animated')) {
 				return;
 			}
+			this.divElement.current.style.border = '';
 
 
 
